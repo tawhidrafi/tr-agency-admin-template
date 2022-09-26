@@ -1,0 +1,95 @@
+/*=============== FORM LAYOUT ===============*/
+form {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 14px;
+}
+/*=============== BACK TO BUTTON ===============*/
+div.button-page a {
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #1B8084;
+    padding: 8px 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+/*=============== FORM ITEM ===============*/
+.form-item {
+    min-height: 100px;
+    min-width: 50%;
+    padding: 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #FFF;
+    margin: 25px 0;
+}
+/*=============== PHOTO ===============*/
+.form-item img {
+    width: 100px;
+    object-fit: cover;
+    margin: 10px 0;
+}
+/*=============== LABEL ===============*/
+.form-item label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #858796;
+}
+/*=============== TEXT EMAIL INPUT ===============*/
+.form-item input[type='text'],
+.form-item input[type='email'],
+.form-item input[type='password'] {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    outline: none;
+    background: none;
+    padding-left: 1rem;
+    transition: border 0.2s linear;
+}
+/*=============== TEXT INPUT FOCUS MODE ===============*/
+.form-item input[type='text']:focus {
+    border: 2px solid rgba(133, 135, 150, 0.4);
+}
+/*=============== SUBMIT INPUT ===============*/
+.form-item input[type='submit'] {
+    font-size: 1.15rem;
+    font-weight: 400;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #1B8084;
+    padding: 5px 25px;
+    color: #FFF;
+    cursor: pointer;
+}
+/*=============== FORM SELECT TAG DESIGN ===============*/
+.form-item:nth-child(3) select {
+    background-color: #858796;
+    color: #FFF;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+/*=============== SUBMIT BUTTON ===============*/
+.form-item:last-child {
+    border: 0;
+    min-height: auto;
+    text-align: right;
+    padding: 0;
+    margin: 1rem 0;
+}

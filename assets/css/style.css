@@ -1,0 +1,71 @@
+/*=============== SUMMERY AREA ===============*/
+.summery {
+    padding: 2rem;
+    border-radius: 10px;
+    background: #FFF;
+    border: 0.1rem solid #E3E6F0;
+}
+/*=============== SUMMERY AREA CONTAINER ===============*/
+.s__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*=============== SINGLE ITEM ===============*/
+.s__item {
+    width: 315px;
+    height: 100px;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    border: 0.1rem solid #E3E6F0;
+    border-left: 4px solid #1B8084;
+    margin-bottom: 2rem;
+}
+/*=============== SUMMERY TITLE ===============*/
+.s__title {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1;
+    position: absolute;
+    top: 25%;
+    left: 15px;
+    color: #1B8084;
+}
+/*=============== SUMMERY TEXT ===============*/
+.s__sum {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 1;
+    position: absolute;
+    top: 45%;
+    left: 15px;
+    color: #333;
+}
+/*=============== SUMMERY ICON ===============*/
+.s__icon {
+    font-size: 2rem;
+    color: #cfcfd4;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    line-height: 1;
+    transform: translate(-50%, -50%);
+}
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (min-width: 576px) {
+
+}
+/* For medium devices */
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
+/* For large devices */
+@media screen and (min-width: 968px) {
+
+}

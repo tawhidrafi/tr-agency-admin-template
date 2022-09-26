@@ -1,0 +1,87 @@
+/*=============== TABLE CONTAINER ===============*/
+.table-container {
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+/*=============== BACK TO BUTTON ===============*/
+div.button-page {
+    display: inline-block;
+}
+div.button-page a {
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #1B8084;
+    padding: 8px 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+div.button-page a {
+    margin-right: 0.75rem;
+}
+/*=============== TABLE ===============*/
+table.media-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+/*=============== TH, TD DESIGN ===============*/
+table.media-table th,
+table.media-table td {
+    background: #FFF;
+    color: #858796;
+    padding: 14px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+/*=============== PHOTO ===============*/
+table.media-table td img {
+    width: 80px;
+    object-fit: cover;
+}
+/*=============== LINK TD ===============*/
+tr.table-row .table-data:nth-child(3) {
+    width: 400px;
+}
+/*=============== LINK INPUT ===============*/
+table.media-table td input[type='text'] {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    outline: none;
+    background: #FFF;
+    padding-left: 0.5rem;
+    transition: border 0.2s linear;    
+    color: #858796;
+}
+/*=============== EDIT COPY LINK BUTTON DESIGN ===============*/
+tr.table-row td.table-data span a {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #1B8084;
+    padding: 5px 15px;
+    color: #FFF;
+    cursor: pointer;
+}
+/*=============== COPY LINK MARGIN ===============*/
+tr.table-row td.table-data:nth-child(3) span {
+    display: block;
+    margin-top: 10px;
+}
+/*=============== MAX WIDTH ===============*/
+tr.table-row td.table-data:nth-child(2) {
+    width: 120px;
+    text-align: center;
+}
+tr.table-row td.table-data:last-child {
+    width: 100px;
+    text-align: center;
+}

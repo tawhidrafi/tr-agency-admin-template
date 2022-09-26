@@ -1,0 +1,59 @@
+/*=============== TABLE CONTAINER ===============*/
+.table-container {
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+/*=============== BACK TO BUTTON ===============*/
+div.button-page {
+    display: inline-block;
+}
+div.button-page a {
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #1B8084;
+    padding: 8px 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+div.button-page a {
+    margin-right: 0.75rem;
+}
+/*=============== TABLE ===============*/
+table.testimonial-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+/*=============== TH, TD DESIGN ===============*/
+table.testimonial-table th,
+table.testimonial-table td {
+    background: #FFF;
+    color: #858796;
+    padding: 14px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+/*=============== EDIT LINK ===============*/
+table.testimonial-table td span a {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #1B8084;
+    padding: 5px 15px;
+    color: #FFF;
+    cursor: pointer;
+}
+/*=============== NAME TD ===============*/
+tr.table-row .table-data:nth-child(1) {
+    min-width: 150px;
+}
+/*=============== MAX WIDTH ===============*/
+tr.table-row td.table-data:last-child {
+    width: 100px;
+    text-align: center;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- === SITE TITLE === -->
+        <title>UPLOAD MEDIA || AB AGENCY</title>
+		<!-- === FAV-ICON === -->
+		<link rel="icon" type="image/x-icon" href="">
+		<!-- === GLOBAL CSS STYLE  === -->
+        <link rel="stylesheet" href="../../global/css/global.css">
+        <!-- === PAGE CSS STYLE === -->
+        <link rel="stylesheet" href="assets/css/style.css">
+		<!-- === FONT AWESOME CDN === -->
+		<script src="https://kit.fontawesome.com/15379409d8.js" crossorigin="anonymous"></script>
+        <!-- === TINY MCE CDN === -->
+        <script src="https://cdn.tiny.cloud/1/ejvm0eguj7iz26wtowk7ni1g1kyi4pr8eithjrb2lrasx60m/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    </head>
+    <!-- ===  === -->
+    <body>
+        <!-- === NAV AREA === -->
+        <header class="header">
+            <div class="nav">
+                <!-- === NAV LOGO === -->
+                <div class="nav__logo">
+                    <a href="../../index.html">
+                        <img src="../../global/img/logo.png" alt="">
+                    </a>
+                </div>
+                <!-- === NAV MENU === -->
+                <div class="nav__menu">
+                    <ul class="nav__ul">
+                        <!-- === DASHBOARD === -->
+                        <li class="nav__item">
+                            <a href="../../index.html" class="nav__link">
+                                <!-- === NAV LINK ICON === -->
+                                <i class="fas fa-fw fa-tachometer-alt"></i>
+                                Dashboard
+                            </a>
+                        </li>
+                        <!-- === PAGES === -->
+                        <li class="nav__item">
+                            <a href="../../page/index.html" class="nav__link">
+                                <i class="far fa-fw fa-file"></i>
+                                Pages
+                            </a>
+                        </li>
+                        <!-- === PROJECTS === -->
+                        <li class="nav__item">
+                            <a href="../../project/index.html" class="nav__link">
+                                <i class="fas fa-fw fa-pencil-ruler"></i>
+                                Projects
+                            </a>
+                        </li>
+                        <!-- === POSTS === -->
+                        <li class="nav__item">
+                            <a href="../../post/index.html" class="nav__link">
+                                <i class="fas fa-fw fa-file-signature"></i>
+                                Posts
+                            </a>
+                        </li>
+                        <!-- === MEDIA === -->
+                        <li class="nav__item">
+                            <a href="../../../media/index.html" class="nav__link">
+                                <i class="fas fa-fw fa-images"></i>
+                                Media
+                            </a>
+                        </li>
+                        <!-- === USERS === -->
+                        <li class="nav__item">
+                            <a href="../../user/index.html" class="nav__link">
+                                <i class="fas fa-fw fa-user"></i>
+                                Users
+                            </a>
+                        </li>
+                        <!-- === ELEMENTS === -->
+                        <li class="nav__item">
+                            <a href="../../elements/" class="nav__link">
+                                <i class="fas fa-fw fa-layer-group"></i>
+                                Elements
+                            </a>
+                        </li>
+                        <!-- === SETTINGS === -->
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <i class="fas fa-fw fa-cogs"></i>
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- === TOP NAV BAR === -->
+        <nav class="top-nav b-shadow">
+            <div class="wrapper">
+                <!-- === FRONT END BUTTON === -->
+                <a class="top__nav-link b-shadow" href="#">
+                    <i class="fa-brands fa-gg-circle"></i>
+                    View website
+                </a>
+                <!-- === DIVIDER === -->
+                <div class="nav__divider"></div>
+                <!-- === USER PORTAL === -->
+                <div class="user__portal">
+                    <!-- === USER NAME === -->
+                    <span class="u__name">
+                        Alex Doe
+                    </span>
+                    <!-- === USER PHOTO === -->
+                    <img src="../../global/img/user.jpg" alt="" class="u__img">
+                    <!-- <div class="portal-menu">
+                        <li class="p__menu-link">
+                            <a href="#">
+                                <i class="fa-solid fa-gear"></i>
+                                Edit user
+                            </a>
+                        </li>
+                        <li class="p__menu-link">
+                            <a href="#">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                                Log out
+                            </a>
+                        </li>
+                    </div> -->
+                </div>
+            </div>
+        </nav>
+        <!-- === MAIN AREA === -->
+        <main class="main">
+            <!-- ===  === -->
+            <h2 class="main-title">
+                Upload
+            </h2>
+            <!-- ===  === -->
+            <div class="container b-shadow">
+                <!-- === BACK TO CREATE  PAGE === -->
+                <div class="button-page">
+                    <a href="../index.html">Back to Media</a>
+                </div>
+                <!-- ===  === -->
+                <div class="form-container">
+                    <!-- === FORM === -->
+                    <form action="">
+                        <p class="upload-notice">
+                            Accepted Files: .jpeg, .jpg, .png, .gif, .webp, .svg
+                        </p>
+                        <p class="upload-notice">
+                            Please upload one file at a time
+                        </p>
+                        <p class="upload-notice">
+                            Maximum size 200kb 
+                        </p>
+                        <div class="form-item">
+                            <label for="" class="form-label">
+                                Photo
+                            </label>
+                            <input type="file" name="" id="" accept="image/*">
+                        </div>
+                        <div class="form-item">
+                            <!-- === SUBMIT BUTTON === -->
+                            <input type="submit" value="Upload" class="b-shadow">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <!-- === FOOTER === -->
+        <footer class="footer grid-center">
+            Copyright © AB AGENCY 2021. Thank You.
+        </footer>
+		<!-- === MAIN JS FILE === -->
+        <script src="../../global/js/main.js"></script>
+    </body>
+</html>
